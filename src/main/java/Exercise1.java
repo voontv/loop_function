@@ -2,7 +2,7 @@ public class Exercise1 {
 
     public int getLargestCommonDivisor(int integerA, int integerB) {
         if(integerA == 0 || integerB ==0) {
-            return Math.abs((int) (integerA+integerB));
+            return Math.abs(integerA+integerB);
         }
 
         while(integerA != integerB) {
