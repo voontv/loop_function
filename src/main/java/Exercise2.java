@@ -4,7 +4,7 @@ public class Exercise2 {
         int total=0;
 
         while(integer > 0) {
-            total += integer % 10;
+            total += integer % 10; 
             integer /= 10;
         }
         return total;
