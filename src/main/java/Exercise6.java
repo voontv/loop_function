@@ -1,7 +1,7 @@
 public class Exercise6 {
 
     public float getDelta(float a, float b, float c) {
-        return Math.round((float) ((b * b) - 4 * a *c) * 100) / 100;
+        return Math.round(((b * b) - 4 * a *c) * 100) / 100;
     }
 
     public StringBuilder solveEquation(float a, float b, float c) {
