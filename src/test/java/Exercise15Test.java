@@ -52,7 +52,7 @@ public class Exercise15Test {
 
     @Test(expected = RuntimeException.class)
     public void test_getCircumferenceTriangleRuntimeException() {
-        exercise15.isEquilateralTriangle(23.3,12.5,88.9);
+        exercise15.getCircumferenceTriangle(23.3,12.5,88.9);
     }
 
     @Test
@@ -62,6 +62,6 @@ public class Exercise15Test {
 
     @Test(expected = RuntimeException.class)
     public void test_getAreaTriangleRuntimeException() {
-        exercise15.isEquilateralTriangle(23.3,12.5,88.9);
+        exercise15.getAreaTriangle(23.3,12.5,88.9);
     }
 }
