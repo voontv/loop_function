@@ -29,3 +29,5 @@ build/**
 .idea/**
 out/**
 .gradle/**
+.classpath
+
