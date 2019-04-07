@@ -7,6 +7,6 @@ public class Exercise7Test {
     @Test
     public void test_totalInRange() {
         Exercise7 exercise7 = new Exercise7();
-        assertEquals(exercise7.totalInRange(5),39,1);
+        assertEquals(exercise7.totalInRange(5),40, 0.001);
     }
 }
