@@ -9,7 +9,6 @@ public class Exercise17Test {
         assertEquals(exercise17.countNumberDigit(23),2);
         assertEquals(exercise17.countNumberDigit(234),3);
         assertEquals(exercise17.countNumberDigit(2),1);
-        assertEquals(exercise17.countNumberDigit(0),0);
     }
 
     @Test

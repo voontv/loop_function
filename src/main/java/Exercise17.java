@@ -2,6 +2,7 @@ public class Exercise17 {
 
     public int countNumberDigit(long number) {
         int count = 0;
+
         while (number > 0) {
             count++;
             number /= 10;
